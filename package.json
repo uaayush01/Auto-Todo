@@ -1,0 +1,41 @@
+{
+  "name": "todo-file-generator",
+  "displayName": "todo-file-generator",
+  "description": "creates a todo.txt file in root directory",
+  "version": "0.0.1",
+  "publisher":"uaayushh01",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/uaayush01/to-do-generator"
+},
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "workspaceContains:**/todo.txt",
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "todo-file-generator.helloWorld",
+      "title": "Hello World"
+    }]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.97.0",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "20.x",
+    "eslint": "^9.13.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1"
+  }
+}
