@@ -1,16 +1,27 @@
-<<<<<<< HEAD
+
 # to-do-generator
-vs code extension as a project in which the extension performs the task of adding todo.txt file to the root directory if it does not exist there . On opening any folder it should check whether the file is there or not if it not there it should be created
+AutoTodo is a simple yet powerful extension that automatically generates a todo.txt file in the root directory whenever you open a new project.
 =======
 # todo-file-generator README
 
-
+Why I Created AutoTodo?
+As developers, we often start new projects without a clear plan for tasks, bug fixes, or features to implement. I built AutoTodo to solve this problem by ensuring that every project starts with a structured to-do list right from the beginning. 
 
 ## Features
 
-Creates todo.txt file automatically on opening any folder for first time in the vs code .
+Creates todo.txt file automatically on opening any folder for first time in the vs code.
 
+✅ Keeping track of tasks without external tools
+✅ Maintaining a habit of organizing work from the start
+✅ Reducing clutter by storing notes directly within the project
 
+How It Works?
+
+When you open a new folder in VS Code, AutoTodo automatically creates a todo.txt file in the root directory.
+You can instantly start adding tasks, reminders, or notes.
+No manual setup required—just open and start working!
+
+Perfect for developers, students, and project managers who want a lightweight and effective way to manage tasks.
 ## Requirements
 
 Just add these extension to your vs code .
