@@ -3,7 +3,7 @@
   "displayName": "AutoTodo",
   "icon": "icon.png",
   "description": "AutoTodo is a simple yet powerful extension that automatically generates a todo.txt file in the root directory whenever you open a new project. \n\nWhy I Created AutoTodo?\nAs developers, we often start new projects without a clear plan for tasks, bug fixes, or features to implement. I built AutoTodo to solve this problem by ensuring that every project starts with a structured to-do list right from the beginning. This helps in:\n✅ Keeping track of tasks without external tools\n✅ Maintaining a habit of organizing work from the start\n✅ Reducing clutter by storing notes directly within the project.\n\nHow It Works?\n- When you open a new folder in VS Code, AutoTodo automatically creates a todo.txt file in the root directory.\n- You can instantly start adding tasks, reminders, or notes.\n- No manual setup required—just open and start working!\n\n💡 Perfect for developers, students, and project managers who want a lightweight and effective way to manage tasks.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "publisher": "uaayushh01",
   "repository": {
     "type": "git",
