@@ -1,8 +1,6 @@
 
 # to-do-generator
 AutoTodo is a simple yet powerful extension that automatically generates a todo.txt file in the root directory whenever you open a new project.
-=======
-# todo-file-generator README
 
 Why I Created AutoTodo?
 As developers, we often start new projects without a clear plan for tasks, bug fixes, or features to implement. I built AutoTodo to solve this problem by ensuring that every project starts with a structured to-do list right from the beginning. 
